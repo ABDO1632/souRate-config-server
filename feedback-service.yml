@@ -1,0 +1,15 @@
+spring:
+    datasource:
+      url: "jdbc:mysql://localhost:3306/feedback_reply_db"
+      username: "soul-rate-admin"
+      password: "soul-rate-pass"
+    jpa:
+      database-platform: "org.hibernate.dialect.MySQL8Dialect"
+      hibernate:
+        ddl-auto: update
+      generate-ddl: true
+server:
+  port: 8101
+
+# management:
+#    port: 9000
