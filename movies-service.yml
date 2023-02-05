@@ -1,13 +1,12 @@
 spring:
     datasource:
-      url: "jdbc:mysql://localhost:3306/movies_db"
+      url: "jdbc:mysql://soul-rate-admin:AVNS_NrUe3N6qXkCJQUTFAXs@soul-rate-do-user-11419363-0.b.db.ondigitalocean.com:25060/movies_db?ssl-mode=REQUIRED"
       username: "soul-rate-admin"
-      password: "soul-rate-pass"
+      password: "AVNS_NrUe3N6qXkCJQUTFAXs"
     jpa:
       database-platform: "org.hibernate.dialect.MySQL8Dialect"
       hibernate:
         ddl-auto: update
       generate-ddl: true
-
 server:
   port: "8000"
