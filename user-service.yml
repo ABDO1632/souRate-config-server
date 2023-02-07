@@ -1,6 +1,6 @@
 spring:
     datasource:
-      url: "jdbc:mysql://localhost:3306/user_db"
+      url: "jdbc:mysql://soul-rate-admin:show-password@soul-rate-do-user-11419363-0.b.db.ondigitalocean.com:25060/user_db?ssl-mode=REQUIRED"
       username: "soul-rate-admin"
       password: "soul-rate-pass"
     jpa:
